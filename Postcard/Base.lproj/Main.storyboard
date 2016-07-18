@@ -90,6 +90,15 @@
                                     <rect key="frame" x="40" y="82" width="310" height="116"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcC-DQ-ZUG">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="215" width="187" height="93"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfL-Xs-QFi">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -109,6 +118,7 @@
                                 <exclude reference="7S7-YV-6iF"/>
                                 <exclude reference="TGO-oN-hT1"/>
                                 <exclude reference="RPQ-PQ-J3U"/>
+                                <exclude reference="YcC-DQ-ZUG"/>
                                 <exclude reference="NfL-Xs-QFi"/>
                             </mask>
                         </variation>
@@ -118,6 +128,7 @@
                                 <include reference="7S7-YV-6iF"/>
                                 <include reference="TGO-oN-hT1"/>
                                 <include reference="RPQ-PQ-J3U"/>
+                                <include reference="YcC-DQ-ZUG"/>
                                 <include reference="NfL-Xs-QFi"/>
                             </mask>
                         </variation>
@@ -127,6 +138,7 @@
                         <outlet property="enterNameTextField" destination="7S7-YV-6iF" id="ii9-ah-TYU"/>
                         <outlet property="mailButton" destination="NfL-Xs-QFi" id="EUg-bE-jQb"/>
                         <outlet property="messageLabel" destination="RPQ-PQ-J3U" id="4gX-ae-b2P"/>
+                        <outlet property="nameLabel" destination="YcC-DQ-ZUG" id="EwC-aw-t6b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
