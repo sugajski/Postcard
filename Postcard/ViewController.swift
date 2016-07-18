@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         nameLabel.hidden = false
         nameLabel.text = enterNameTextField.text
-        nameLabel.textColor = UIColor.blueColor()
+        nameLabel.textColor = UIColor.yellowColor()
         
         
         //clear the message input in the text field
